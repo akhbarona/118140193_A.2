@@ -1,35 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Latihan 2</title>
 </head>
 <body>
-	<form action="" method="post">
+	<form action="latihan2.html" method="post" enctype="multipart/form-data">
+		<div>
 			<label>Name:</label>
-			<input type="text">
-			<br>
+			<input type="text" name="nama">
+		</div>
+		<div>
 			<label>Address:</label>
-			<textarea></textarea>
-			<br>
+			<input type="text" name="alamat">
+		</div>
+		<div>
 			<label>Gender:</label>
-			<input type="radio" value="Man">
-			<input type="radio" value="Woman">
-			<br>
+			<input type="radio" name="jk" value="Man">Man
+			<input type="radio" name="jk" value="Woman">Woman
+		</div>
+		<div>
 			<label>Country:</label>
-			<select>
-				<option>Indonesia</option>
+			<select name="pilih">
+				<option value="Indonesia">Indonesia</option>
+				<option value="Russia">Russia</option>
+				<option value="USA">USA</option>
 			</select>
-			<br>
+		</div>
+		<div>
 			<label>Email:</label>
-			<input type="text" >
-			<br>
+			<input type="text" name="mail">
+		</div>
+		<div>
 			<label>Photo:</label>
-			<input type="file">
-			<br>
+			<input type="file" name="foto">	
+		</div>
+		<div>
 			<label>Comment:</label>
-			<textarea rows="4"></textarea>
-			<input type="submit">
+			<textarea rows="6" cols="50" name="komen"></textarea>
+			<input type="submit" name="submit" value="submit">
+		</div>
 	</form>
 </body>
 </html>
