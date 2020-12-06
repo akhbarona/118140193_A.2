@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript & DOM</title>
+</head>
+<body>
+
+<div class="apple">
+	<ul>
+	<li><b>getElementsByName()</b></li><br>
+	Ketik<br>
+	<input type="text" name="kertas">
+	<button onclick="myFunction()">Klik aku!</button>
+	</ul>
+	<script>
+		function myFunction() {
+			var x = document.getElementsByName("kertas")[0].tagName;
+			alert(document.getElementsByName("kertas")[0].value);
+		}
+	</script>
+</div>
+<div class="banana">
+	<ul>
+	<li><b>getElementByClassName()</b></li><br>
+	<div class="example">Apa kabar?</div>
+	<button onclick="myPercobaan()">Klik Aku!</button>
+	<script>
+		function myPercobaan() {
+			var x = document.getElementsByClassName("example");
+			x[0].innerHTML = "Luar Biasa!";
+		}
+	</script>
+	</ul>
+</div>
+<div class="cherry">
+	<ul>
+	<li><b>getElementByTagName()</b></li>
+	<p>An unordered list:</p>
+	<ul>
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ul>
+	<button onclick="myList()">Try it</button>
+	<p id="hai"></p>
+	<script>
+	function myList() {
+		var x = document.getElementsByTagName("li");
+		document.getElementById("hai").innerHTML = x[5].innerHTML;
+	}
+	</script>
+</div>
+<div class="durian">
+	<ul>
+	<li><b>getElementByTagNameNS()</b></li><br>
+	<button onclick="getAllParaElems()">show all p elements</button>
+	<script>
+		function getAllParaElems() {
+			var names = document.getElementsByTagNameNS("http://www.w3.org/1999/xhtml", "p");
+			var num = names.length;
+			alert("Ada " + num + " tag p dalam dokumen ini");
+		}
+	</script>
+</div>
+<div class="Enau">
+	<ul>
+	<li><b>querySelector()</b></li>
+	<p>HALLO WORLD!</p>
+		<p>HALLO DUNIA!</p>
+	<script>
+		var p4 = document.querySelector('.Enau p');
+		p4.style.color = 'green';
+	</script>
+</div>
+<div class="grape">
+	<ul>
+	<li><b>querySelectorAll()</b></li><br>
+	<p>Hai!</p>
+	<p>Hai!</p>
+	<script>
+			var warnaKu = document.querySelectorAll('.grape p');
+			for (let i = 0; i < warnaKu.length; i++) {
+					warnaKu[i].style.backgroundColor = 'blue';
+				}
+	</script>
+</div>
+
+
+
+</body>
+</html>
