@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<biodata>
+    <nama>
+        <depan>Akhbarona</depan>
+        <belakang>Syanulin</belakang>
+    </nama>
+    <jeniskelamin>Laki-laki</jeniskelamin>
+    <status>Mahasiswa</status>
+    <saudara>
+        <nama>Vinna</nama>
+    </saudara>
+    <orangtua>
+        <nama>Arsun Sumadi</nama>
+    </orangtua>
+    <hobby>
+        <hobi>Olahraga</hobi>
+        <hobi>Coding</hobi>
+    </hobby>
+    <alamat>
+        <desa>Way Dadi Baru</desa>
+        <kecamatan>Sukarame</kecamatan>
+        <kebupaten>Bandar Lampung</kebupaten>
+    </alamat>
+    <sosialmedia>
+        <instagram>akhbarona_</instagram>
+        <github>akhbarona</github>
+        <line>@akhbarona</line>
+        <whatsapp>081377641593</whatsapp>
+    </sosialmedia>
+</biodata>

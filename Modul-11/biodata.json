@@ -1,0 +1,31 @@
+{
+    "biodata" : {
+       "nama" : {
+           "depan" : "Akhbarona",
+           "belakang" : "Syanulin"
+       },
+       "jeniskelamin" : "Laki-laki",
+       "status" : "Mahasiswa",
+       "saudara" : {
+           "nama" : "Vinna"
+       },
+       "orangtua" : {
+           "nama" : "Arsun Sumadi"
+       },
+       "hobby" : {
+           "hobi" : ["Olahraga","Coding"]
+       },
+       "alamat" : {
+           "desa" : "Way Dadi Baru",
+           "kecamatan" : "Sukarame",
+           "kabupaten" : "Bandar Lampung",
+           "Provinsi" : "Bandar Lampung"
+       },
+       "sosialmedia" : {
+           "instagram" : "akhbarona_",
+           "github" : "akhbarona",
+           "line" : "@akhbarona",
+           "whatsapp" : "081377641593"
+       }
+    }
+}
